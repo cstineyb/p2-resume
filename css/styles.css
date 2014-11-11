@@ -1,100 +1,83 @@
-/* =========
-Global Styling
-* font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-* bg.png file for background
-========= */
+/* Your Website Styles */
 body {
-	background: url("../img/bg.png");
-	color: #333;
-	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	background: #C5C77F;
+	font-size: 16px;
+}
+header {
+	background: url("../img/couch-slice.jpg") repeat;
+	height: 320px;
 }
 
-p {
- 	line-height: 24px;
-}
 
-/* =========
-Blockquote
-* color #e44d26
-* font size 2em
-* font style italic
-* letter spacing 1px
-* text aligned center
-========= */
-blockquote {
-	color: #e44d26;
-	font-size: 2em;
-	font-style: italic;
-	letter-spacing: 1px;
-	text-align: center; 
-}
-
-/* =========
-Navigation
-* List Items - Navigation provided
-
-Anchor Links
-* padding: 10px 10px 10px 40px;
-* color on hover #E44D26
-========= */
-nav li {
-	float: left;
-	list-style: none;
-	margin: 0 10px 0 10px;
-}
-
-/* Base link styling */
-nav a:link, 
-nav a:visited {
-	color: #333;
-	padding: 10px 10px 10px 40px;
+a {
 	text-decoration: none;
-	text-transform: uppercase;
+	color: #34DDDD;
 }
 
-nav a:hover, 
-nav a:active {
-	color: #E44D26;
+p a {
+	color: #808;
 }
 
-/* on hover show home.png */
-#home a:hover {
-	background: url("../img/icons/home.png") no-repeat left center;
+a:visited {
+	color: darkgreen;
 }
 
-/* on hover show home.png */
-#super a:hover {
-	background: url("../img/icons/super.png") no-repeat left center;
+p a:hover {
+	font-size: 1.05em;
 }
 
-/* on hover show home.png */
-#html5 a:hover {
-	background: url("../img/icons/html5.png") no-repeat left center;
+h1	{
+	display: inline-block;
+	color: #808;
+	background: #2F045D;
+	border-radius: 0 0 15px 15px;
+	float: left;
+	font-family: 'Ubuntu 700' sans-serif;
+	font-size: 4em;
+	margin: 0;
+	padding: 10px;
+	width: 98%;
+	
+	}
+
+img.selfie-right {
+	float: right;
 }
 
-/* =========
-Super Friends
-* font-family: 'Open Sans', sans-serif;
-* text-indent: 32px;
-* line-height: 24px;
-========= */
+
+
+h2 {font-family: 'Roboto' sans-serif;
+	}
+
 h3 {
-	font-family: 'Open Sans', sans-serif;
-}
+	font-family: 'Roboto' sans-serif;
+	}
 
-article img {
-	border: 10px solid #fff;
-}
 
-img + p {
-	text-indent: 32px;
-}
+	
 
-/* =========
-Footer
-* arial font for paragraphs
-========= */
+footer {
+	color: #e5d7d4;
+		background: #2F045D;
+		border-radius: 15px 15px 0 0;
+		margin-bottom: 0;
+		height: 131px;
+		width: 100%;
+}	
+
 footer p {
-	font: 10px/16px 'arial', sans-serif;
+	font-size: 12px;
+	margin-left: 10px;
+	display:inline;
+	float: left;
+	position: relative;
+	top:75px;
+	left:8px;
 }
 
+	
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
