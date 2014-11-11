@@ -49,8 +49,18 @@ img.selfie-right {
 h2 {font-family: 'Roboto' sans-serif;
 	}
 
-h3 {
+h4 {
+	text-align: center;
+	background: red;
+	display: block;
 	font-family: 'Roboto' sans-serif;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	line-height: 200px;
+	
+
+
 	}
 
 
@@ -75,7 +85,11 @@ footer p {
 	left:8px;
 }
 
-	
+/*.circle#typo {
+	background: blue;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; */	
 
 /* Show Grid */
 .showgrid {
