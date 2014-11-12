@@ -10,10 +10,7 @@ header {
 	height: 320px;
 }
 
-section .experience {
-	max-width: 50%;
 
-}
 
 h1	{
 	display: inline-block;
@@ -33,84 +30,130 @@ img.selfie-right {
 	float: right;
 }
 
-h2 {
-	font-family: 'Roboto' sans-serif;
+/*EDUCATION Z-index 1-9 */
+.education p {
 	text-align: center;
 	background: blue;
-	display: block;
-	font-family: 'Roboto' sans-serif;
-	border-radius: 50%;
-	width: 300px;
-	height: 300px; 
-	line-height: 300px;
-
-	}
-
-h4 {
-	text-align: center;
-	background: red;
-	display: block;
-	font-family: 'Roboto' sans-serif;
-	border-radius: 50%;
-	width: 200px;
-	height: 200px; 
-	line-height: 200px;
-	}
-
-
-.experience p {
-	text-align: center;
-	background: green;
+	color: #fff;
 	opacity:.8;
 	display: block;
 	font-family: 'Roboto' sans-serif;
-	font-size: 2vmax;
+	font-size: 1.75vmax;
 	border-radius: 50%;
-	width: 50vmin;
-	height: 50vmin; 
+	width: 55vmin;
+	height: 55vmin; 
 	line-height: 50vmin;
+	padding: 3vmax;
 	position: relative;
 	float:left;
 	z-index: 1;
 	}
 
-.education p {
-	text-align: center;
-	background: blue;
-	opacity:.8;
-	display: block;
-	font-family: 'Roboto' sans-serif;
-	font-size: 2.5vmax;
-	border-radius: 50%;
-	width: 55vmin;
-	height: 55vmin; 
-	line-height: 50vmin;
-	padding: 4vmax;
+#ewu	{
+	background: red;
+	opacity:.7;
+	top: 5vh;
+	left: 6vw;
 	position: relative;
-	float:left;
-	z-index: 10;
-	}
+	z-index: 4;
+}
+#sca	{
+	background: darkgreen;
+	top: 40vh;
+	left: 2vw;
+	position: relative;
+	z-index: 3;
+}
 
-.skills p {
+#ucsc	{
+	color: darkblue;
+	background: gold;
+	opacity:.7;
+	top: 25vh;
+	left: 8vw;
+	clear:none;
+	position: relative;
+	z-index: 2;
+}
+/*EXPERIENCE Z-index 10-19*/
+
+section.experience {
+	position:relative;
+	top: -40vh;
+	z-index: 10;
+}
+.experience p {
 	text-align: center;
-	background: brown;
+	background: green;
+	color:#fff;
 	opacity:.8;
 	display: block;
 	font-family: 'Roboto' sans-serif;
 	font-size: 2vmax;
 	border-radius: 50%;
-	width: 30vmin;
-	height: 30vmin; 
-	line-height: 30vmin;
+	width: 40vmin;
+	height: 40vmin; 
+	line-height: 40vmin;
 	position: relative;
 	float:left;
-	z-index: 30;
-
+	z-index: 19;
 	}
 
+#design {
+	background: #808;
+	opacity:.7;
+	top: 10vh;
+	left: -25vw;
+	position: relative;
+	z-index: 11;
+}
+
+#restaurants {	
+	background: #303;
+	color:#fff;
+	opacity:.7;
+	top: -25vh;
+	left: -25vw;
+	position: relative;
+	z-index: 14;
+	
+}
+
+#retail {
+	background: #408;
+	opacity:.7;
+	top: 14vh;
+	left: -7vw;
+	position: relative;
+	z-index: 12;	
+
+}
+
+#management {
+    background: #303;
+	opacity:.7;
+	top: -25vh;
+	left: -25vw;
+	position: relative;
+	z-index: 15;	
+}
+			
+#life {	
+	background: #303;
+	opacity:.7;
+	top: -25vh;
+	left: -25vw;
+	position: relative;
+	z-index: 13;
+}
+
+
+/*SKILLS Z-index 20-40*/
+
 .skills .adobe p {
+	color:#000;
 	text-align: center;
-	background: pink;
+	background: darkred;
 	opacity:.8;
 	display: block;
 	font-family: 'Roboto' sans-serif;
@@ -121,27 +164,28 @@ h4 {
 	line-height: 10vmin;
 	position: relative;
 	float:left;
-	z-index: 20;
+	z-index: 30;
 
 	}
 .skills p {
 	text-align: center;
-	background: brown;
+	background: chartreuse;
+	color: #fff;
 	opacity:.8;
 	display: block;
 	font-family: 'Roboto' sans-serif;
-	font-size: 2vmax;
+	font-size: .95vmax;
 	border-radius: 50%;
-	width: 30vmin;
-	height: 30vmin; 
-	line-height: 30vmin;
-	padding: 2vmax;
+	width: 20vmin;
+	height: 20vmin; 
+	line-height: 20vmin;
+	padding: 1vmax;
 	position: relative;
 	float:left;
-	z-index: 30;
+	z-index: 40;
 
 	}
-
+/*OTHER Z-index 41-50 */
 .other p {
 	text-align: center;
 	background: #fff;
@@ -160,7 +204,7 @@ h4 {
 
 	
 	}	
-
+/*FOOTER Z-index -1 */
 footer p {
 	color:#fff;
 	background: #2F045D;
@@ -177,31 +221,9 @@ footer p {
 	left:3vw;
 }
 
-#ewu	{
-	background: red;
-	opacity:.7;
-	top: 5vh;
-	left: 6vw;
-	position: relative;
-	z-index: 4;
-}
-#sca	{
-	background: lightgreen;
-	top: 1vh;
-	left: 2vw;
-	position: relative;
-	z-index: 3;
-}
 
-#ucsc	{
-	background: gold;
-	opacity:.7;
-	top: -22vh;
-	left: 15vw;
-	clear:left;
-	position: relative;
-	z-index: 2;
-}
+
+
 /*.circle#typo {
 	background: blue;
 	border-radius: 50%;
