@@ -173,6 +173,12 @@ footer p {
 	left:8px;
 }
 
+#ewu	{
+	top: 5vh;
+	left: 6vw;
+	position: relative;
+	z-index: 2;
+}
 /*.circle#typo {
 	background: blue;
 	border-radius: 50%;
