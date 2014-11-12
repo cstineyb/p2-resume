@@ -10,7 +10,10 @@ header {
 	height: 320px;
 }
 
+section .experience {
+	max-width: 50%;
 
+}
 
 h1	{
 	display: inline-block;
@@ -82,6 +85,7 @@ h4 {
 	width: 55vmin;
 	height: 55vmin; 
 	line-height: 50vmin;
+	padding: 4vmax;
 	position: relative;
 	float:left;
 	z-index: 10;
@@ -167,15 +171,34 @@ footer p {
 	float:right;
 	font-size: 1.5vmin;
 	display:block;
-	float: right;
+	float: left;
 	position: relative;
-	top:75px;
-	left:8px;
+	top:2vh;
+	left:3vw;
 }
 
 #ewu	{
+	background: red;
+	opacity:.7;
 	top: 5vh;
 	left: 6vw;
+	position: relative;
+	z-index: 4;
+}
+#sca	{
+	background: lightgreen;
+	top: 1vh;
+	left: 2vw;
+	position: relative;
+	z-index: 3;
+}
+
+#ucsc	{
+	background: gold;
+	opacity:.7;
+	top: -22vh;
+	left: 15vw;
+	clear:left;
 	position: relative;
 	z-index: 2;
 }
