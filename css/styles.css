@@ -84,15 +84,17 @@ h4 {
 	line-height: 200px;
 	}
 
-h5 {
+p {
 	text-align: center;
 	background: green;
+	opacity:.8;
 	display: block;
 	font-family: 'Roboto' sans-serif;
 	border-radius: 50%;
 	width: 175px;
 	height: 175px; 
 	line-height: 175px;
+	
 
 }
 
