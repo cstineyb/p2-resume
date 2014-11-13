@@ -5,9 +5,7 @@ body {
 }
 
 header {
-	background: url("../img/couch-slice.jpg") repeat;
-	height: 320px;
-	width:100%;
+	width:100vw;
 }
 
 
@@ -21,17 +19,28 @@ h1	{
 	font-family: 'Ubuntu 700' sans-serif;
 	font-size: 10vmin;
 	margin: 0;
-	padding: 10px;
-	width: 100%;
+	padding: 1vw;
+	width: 100vw;
 	
 	}
+
+div.self {
+	background: url("../img/couch-slice.jpg") repeat;
+	background-position: bottom;
+	background-size: .97vw;
+	width: 100vw;
+}
+
 
 img.selfie-right {
 	float: right;
 }
 
-/*SKILLS Z-index 20-40*/
 
+/*SKILLS Z-index 20-40*/
+section.skills, section.education, section.experience, section.other, footer {
+	width: 100vw;
+}
 .skills .adobe p {
 	color:#000;
 	text-align: center;
