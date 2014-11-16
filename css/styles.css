@@ -1,6 +1,7 @@
 /* Your Website Styles */
 body {
 	background: #C5C77F;
+	font-family: "Roboto" sans-serif;
 	font-size: 16px;
 }
 
@@ -55,7 +56,7 @@ section.skills, section.education, section.experience, section.other, footer {
 	line-height: 10vmin;
 	padding: 1vmax;
 	position: relative;
-	top: 48vmin;
+	top: 55vmin;
 	left: 20vmin;
 	float:left;
 	z-index: 30;
@@ -63,12 +64,12 @@ section.skills, section.education, section.experience, section.other, footer {
 	}
 .skills p {
 	text-align: center;
-	background: chartreuse;
+	background: blue;
 	color: #fff;
-	opacity:.8;
+	opacity:.7;
 	display: block;
 	font-family: 'Roboto' sans-serif;
-	font-size: .95vmax;
+	font-size: 1vmax;
 	border-radius: 50%;
 	width: 20vmin;
 	height: 20vmin; 
@@ -138,7 +139,7 @@ section.experience {
 	color:#fff;
 	opacity:.8;
 	display: block;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Ubuntu 700' sans-serif;
 	font-size: 2vmax;
 	border-radius: 50%;
 	width: 40vmin;
@@ -153,13 +154,13 @@ section.experience {
 	background: #808;
 	opacity:.7;
 	top: 10vh;
-	left: -25min;
+	left: -65vmin;
 	position: relative;
 	z-index: 11;
 }
 
 #restaurants {	
-	background: #303;
+	background: #808;
 	color:#fff;
 	opacity:.7;
 	top: -25vmin;
@@ -170,7 +171,7 @@ section.experience {
 }
 
 #retail {
-	background: #408;
+	background: #808;
 	opacity:.7;
 	top: 14vmin;
 	left: -7vmin;
@@ -180,16 +181,16 @@ section.experience {
 }
 
 #management {
-    background: #303;
+    background: #808;
 	opacity:.7;
 	top: -25vmin;
-	left: -25vmin;
+	left: -55vmin;
 	position: relative;
 	z-index: 15;	
 }
 			
 #life {	
-	background: #303;
+	background: #808;
 	opacity:.7;
 	top: 5vmin;
 	left: 10vmin;
@@ -202,7 +203,8 @@ section.experience {
 /*OTHER Z-index 41-50 */
 .other p {
 	text-align: center;
-	background: #fff;
+	background: orange;
+	color: #fff;
 	opacity:.8;
 	display: block;
 	font-family: 'Roboto' sans-serif;
@@ -216,9 +218,40 @@ section.experience {
 	position: relative;
 	float:left;
 	z-index: 40;
+}
 
-	
-	}	
+#poetry {
+	top:-15vmin;
+	left:-5vmin;
+
+}
+
+
+#bicycles {
+	top:-40vmin;
+	position: relative;
+	z-index: 42;
+
+
+}
+
+
+#building {
+	top:-55vmin;
+	left: -1vmin;
+	position: relative;
+	z-index: 41;
+
+}
+
+
+#art {
+
+	top:-85vmin;
+	left:-95vmin;
+
+}
+
 /*FOOTER Z-index -1 */
 footer p {
 	color:#fff;
@@ -232,8 +265,8 @@ footer p {
 	display:block;
 	float: left;
 	position: relative;
-	top:2min;
-	left:3min;
+	top: 25vmin;
+	left: -100vmin;
 }
 
 
