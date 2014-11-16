@@ -265,6 +265,7 @@ section.experience {
 }
 
 #mechanical {
+	background: #000066;
 	top:-75vmin;
 	left: -25vmin;
 	position: relative;
@@ -272,6 +273,7 @@ section.experience {
 }
 
 #enduring {
+	background: #000099;
 	top:-205vmin;
 	left: 60vmin;
 	position: relative;
@@ -279,6 +281,7 @@ section.experience {
 }
 
 #focused {
+	background: #333399;
 	top:-165vmin;
 	left: 5vmin;
 	position: relative;
@@ -287,10 +290,44 @@ section.experience {
 
 
 #humorous {
+	background: #6666FF;
 	top:-180vmin;
 	position: relative;
 	z-index: 25;
 }
+
+#sticktuitive {
+	top:-180vmin;
+	left: -5vmin;
+	position: relative;
+	z-index: 26;
+}
+
+
+#handy {
+	top:-90vmin;
+	left: -5vmin;
+	position: relative;
+	z-index: 27;
+}
+
+#logical {
+	background: #0060FF;
+	top:-240vmin;
+	left: -5vmin;
+	position: relative;
+	z-index: 28;
+}
+
+#linear {
+	background: #0099FF;
+	top:-65vmin;
+	left: -120vmin;
+	position: relative;
+	z-index: 29;
+
+}
+
 
 /* 
 
@@ -302,13 +339,13 @@ section.experience {
 
 
 
-#sticktuitive
 
-#handy
 
-#logical
 
-#linear	*/
+
+
+
+	*/
 
 /*FOOTER Z-index -1 */
 footer p {
@@ -323,8 +360,6 @@ footer p {
 	display:block;
 	float: left;
 	position: relative;
-	top: 25vmin;
-	left: -100vmin;
 }
 
 
