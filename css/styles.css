@@ -56,9 +56,8 @@ section.skills, section.education, section.experience, section.other, footer {
 	line-height: 10vmin;
 	padding: 1vmax;
 	position: relative;
-	top: 55vmin;
-	left: 20vmin;
-	float:left;
+	float:right;
+	left:-75vmin;
 	z-index: 30;
 
 	}
@@ -69,7 +68,7 @@ section.skills, section.education, section.experience, section.other, footer {
 	opacity:.7;
 	display: block;
 	font-family: 'Roboto' sans-serif;
-	font-size: 1vmax;
+	font-size: 1.5vmax;
 	border-radius: 50%;
 	width: 20vmin;
 	height: 20vmin; 
@@ -77,7 +76,7 @@ section.skills, section.education, section.experience, section.other, footer {
 	padding: 1vmax;
 	position: relative;
 	float:left;
-	z-index: 40;
+	z-index: 20;
 
 	}
 
