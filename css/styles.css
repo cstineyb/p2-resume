@@ -38,47 +38,13 @@ img.selfie-right {
 }
 
 
-/*SKILLS Z-index 20-40*/
+
 section.skills, section.education, section.experience, section.other, footer {
 	width: 100vw;
 }
-.skills .adobe p {
-	color:#000;
-	text-align: center;
-	background: darkred;
-	opacity:.8;
-	display: block;
-	font-family: 'Roboto' sans-serif;
-	font-size: 2vmax;
-	border-radius: 50%;
-	width: 10vmin;
-	height: 10vmin; 
-	line-height: 10vmin;
-	padding: 1vmax;
-	position: relative;
-	float:right;
-	left:-75vmin;
-	z-index: 30;
 
-	}
-.skills p {
-	text-align: center;
-	background: blue;
-	color: #fff;
-	opacity:.7;
-	display: block;
-	font-family: 'Roboto' sans-serif;
-	font-size: 1.5vmax;
-	border-radius: 50%;
-	width: 20vmin;
-	height: 20vmin; 
-	line-height: 20vmin;
-	padding: 1vmax;
-	position: relative;
-	float:left;
-	z-index: 20;
 
-	}
+
 
 /*EDUCATION Z-index 1-9 */
 .education p {
@@ -163,7 +129,7 @@ section.experience {
 	color:#fff;
 	opacity:.7;
 	top: -25vmin;
-	left: -25vmin;
+	left: -30vmin;
 	position: relative;
 	z-index: 14;
 	
@@ -250,6 +216,99 @@ section.experience {
 	left:-95vmin;
 
 }
+
+/*SKILLS Z-index 20-40*/
+.skills .adobe p {
+	color:#000;
+	text-align: center;
+	background: darkred;
+	opacity:.8;
+	display: block;
+	font-family: 'Roboto' sans-serif;
+	font-size: 2vmax;
+	border-radius: 50%;
+	width: 10vmin;
+	height: 10vmin; 
+	line-height: 10vmin;
+	padding: 1vmax;
+	position: relative;
+	float:right;
+	left:-75vmin;
+	z-index: 30;
+
+	}
+.skills p {
+	text-align: center;
+	background: blue;
+	color: #fff;
+	opacity:.7;
+	display: block;
+	font-family: 'Roboto' sans-serif;
+	font-size: 1.5vmax;
+	border-radius: 50%;
+	width: 20vmin;
+	height: 20vmin; 
+	line-height: 20vmin;
+	padding: 1vmax;
+	position: relative;
+	float:left;
+	z-index: 20;
+
+	}
+
+#typographical {
+	top:-175vmin;
+	left: -125vmin;
+	position: relative;
+	z-index: 21;
+
+}
+
+#mechanical {
+	top:-75vmin;
+	left: -25vmin;
+	position: relative;
+	z-index: 22;
+}
+
+#enduring {
+	top:-205vmin;
+	left: 60vmin;
+	position: relative;
+	z-index: 23;
+}
+
+#focused {
+	top:-165vmin;
+	left: 5vmin;
+	position: relative;
+	z-index: 24;
+}
+
+
+#humorous {
+	top:-180vmin;
+	position: relative;
+	z-index: 25;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+#sticktuitive
+
+#handy
+
+#logical
+
+#linear	*/
 
 /*FOOTER Z-index -1 */
 footer p {
