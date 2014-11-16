@@ -1,7 +1,7 @@
 /* Your Website Styles */
 body {
 	background: #303030;
-	font-family: "Roboto" sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
 
@@ -41,6 +41,7 @@ img.selfie-right {
 
 section.skills, section.education, section.experience, section.other, footer {
 	width: 100vw;
+	font-family: 'Roboto', sans-serif;;
 }
 
 
