@@ -1,6 +1,6 @@
 /* Your Website Styles */
 body {
-	background: #C5C77F;
+	background: #303030;
 	font-family: "Roboto" sans-serif;
 	font-size: 16px;
 }
@@ -329,37 +329,27 @@ section.experience {
 }
 
 
-/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	*/
 
 /*FOOTER Z-index -1 */
+footer {
+	float:left;
+	height: 20vmin;
+	width: 20vmin;
+
+}
 footer p {
 	color:#fff;
 	background: #2F045D;
 	border-radius: 50%;
-	height: 15vmin;
-	width: 15vmin;
-	line-height: 15vmin;
-	float:right;
+	height: 20vmin;
+	width: 20vmin;
+	line-height: 20vmin;
 	font-size: 1.5vmin;
 	display:block;
-	float: left;
+	top: -70vmin;
+	margin-bottom: -50vmin;
 	position: relative;
+	z-index: -1;
 }
 
 
