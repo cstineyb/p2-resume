@@ -1,41 +1,150 @@
 /* Your Website Styles */
+
 body {
-	background: #303030;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	background: url("../img/hexabump.png") repeat #000;
+	
 }
-
 header {
-	width:100vw;
+  background: url("../img/hexabump.png") repeat #000;
+  max-width: 100%;
+  max-height:200px;
+  text-align:center;
+}
+
+img {
+  display:inline-block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 
+
+a {
+	text-decoration: none;
+	color: #34DDDD;
+}
+
+p a {
+	color: #808;
+
+}
+
+a:hover {
+	font-size: 1.05em;
+}
 
 h1	{
-	display: inline-block;
-	color: #808;
-	background: #2F045D;
-	border-radius: 0 0 15px 15px;
-	float: left;
-	font-family: 'Ubuntu 700' sans-serif;
-	font-size: 10vmin;
-	margin: 0;
-	padding: 1vw;
-	width: 100vw;
-	
+	left: -999px;
 	}
-
-div.self {
-	background: url("../img/couch-slice.jpg") repeat;
-	background-position: bottom;
-	background-size: .97vw;
-	width: 100vw;
-}
-
 
 img.selfie-right {
 	float: right;
 }
+
+span	{
+	letter-spacing: 10px;
+}
+nav#main {
+  background: url("../img/light_alu.png") repeat #000;
+  display:inline;
+  max-width: 100%;
+  max-height: 70px;
+}
+
+#main ul {
+  
+  margin-top: 0;
+  } 
+
+#main li {
+  color:#000;
+  font-family: 'Ubuntu' sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 2em;
+  display: inline;
+  margin: 0% 3%;
+}
+
+
+a:link {
+ 
+  text-decoration: none;
+  color:#D8D8D8;
+}
+
+a:visited{
+	color: #e6e6e6;
+}
+
+
+
+h2, h3 {
+	color: #000;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+
+}
+section.coasters {
+	float:left;
+	position:relative;
+	margin-top:2%;
+}
+.coasters img {
+	border-radius: 5%;
+	margin: 5.5% 2%;
+	box-shadow: 2px 2px 1px #ccc;
+  -webkit-box-shadow: 2px 2px 1px #ccc;
+  -moz-box-shadow: 2px 2px 1px #ccc;
+}
+
+
+.one h2 {
+
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+
+ p {
+		color: #000;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.33em;
+		line-height: 1.5em;
+		text-align: justify;
+	
+		
+	}
+
+.one {
+		background: #8A002E;
+		border-radius: 5px;
+		float:left;
+		font-family: 'Roboto' sans-serif;
+		margin:  3% auto;
+		padding: 2% 3.5%;
+		position: relative;
+	}
+.one img {
+	margin-left: 5%;
+}
+
+	
+footer {
+	background: url("../img/couch-slice.jpg") repeat;
+	height: 320px;
+}
+
+.copyright {
+	background: url("../img/light_alu.png") repeat;
+}	
+
+.copyright p {
+	text-align: right;
+	padding-right:4%;
+}
+
+
 
 
 
@@ -354,15 +463,64 @@ footer p {
 }
 
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
 
-
-/*.circle#typo {
-	background: blue;
-	border-radius: 50%;
-	width: 200px;
-	height: 200px; */	
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+.one p{
+  font-size:.3em;
+  color:#fff;
+  font-family: "Roboto";
+  text-align: left;
+  padding-bottom
 }
+.one, .coasters {
+	width:90%;
+}
+.one img {
+	width:25%;
+	margin-left: 1%;
+}
+
+h2, h3 {
+	font-size: 1.1em;
+}
+nav#main {
+  height: 30px;
+}
+#main li {
+  color:#000;
+  font-family: 'Ubuntu' sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.5em;
+  display: inline;
+  margin: 0% 3%;
+}
+
+  body {
+    background: url("../img/hexabump.png") repeat #000;
+
+  }
+  .selfie-right {
+  	visibility: hidden;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+  
+  body {
+    background: url("../img/hexabump.png") repeat #000;
+
+  }
+  .one img {
+	width:25%;
+	margin-left: 1%;
+}
+/* Styles */
+}
+
