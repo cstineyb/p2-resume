@@ -24,26 +24,13 @@ a {
 	color: #34DDDD;
 }
 
-p a {
-	color: #808;
 
-}
 
 a:hover {
 	font-size: 1.05em;
 }
 
-h1	{
-	left: -999px;
-	}
 
-img.selfie-right {
-	float: right;
-}
-
-span	{
-	letter-spacing: 10px;
-}
 nav#main {
   background: url("../img/light_alu.png") repeat #000;
   display:inline;
@@ -79,70 +66,17 @@ a:visited{
 
 
 
-h2, h3 {
-	color: #000;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 400;
-
-}
-section.coasters {
-	float:left;
-	position:relative;
-	margin-top:2%;
-}
-.coasters img {
-	border-radius: 5%;
-	margin: 5.5% 2%;
-	box-shadow: 2px 2px 1px #ccc;
-  -webkit-box-shadow: 2px 2px 1px #ccc;
-  -moz-box-shadow: 2px 2px 1px #ccc;
-}
-
-
-.one h2 {
-
-		text-align: left;
-		margin-bottom: 0;
-	}
-
 
  p {
 		color: #000;
 		font-family: 'Roboto', sans-serif;
 		font-size: 1.33em;
 		line-height: 1.5em;
-		text-align: justify;
+		text-align: center;
 	
 		
 	}
 
-.one {
-		background: #8A002E;
-		border-radius: 5px;
-		float:left;
-		font-family: 'Roboto' sans-serif;
-		margin:  3% auto;
-		padding: 2% 3.5%;
-		position: relative;
-	}
-.one img {
-	margin-left: 5%;
-}
-
-	
-footer {
-	background: url("../img/couch-slice.jpg") repeat;
-	height: 320px;
-}
-
-.copyright {
-	background: url("../img/light_alu.png") repeat;
-}	
-
-.copyright p {
-	text-align: right;
-	padding-right:4%;
-}
 
 
 
@@ -205,7 +139,6 @@ section.skills, section.education, section.experience, section.other, footer {
 
 section.experience {
 	position:relative;
-	top: -40vmin;
 	z-index: 10;
 }
 .experience p {
@@ -229,7 +162,6 @@ section.experience {
 	background: #808;
 	opacity:.7;
 	top: 10vh;
-	left: -65vmin;
 	position: relative;
 	z-index: 11;
 }
@@ -238,8 +170,6 @@ section.experience {
 	background: #808;
 	color:#fff;
 	opacity:.7;
-	top: -25vmin;
-	left: -30vmin;
 	position: relative;
 	z-index: 14;
 	
@@ -248,8 +178,6 @@ section.experience {
 #retail {
 	background: #808;
 	opacity:.7;
-	top: 14vmin;
-	left: -7vmin;
 	position: relative;
 	z-index: 12;	
 
@@ -517,9 +445,8 @@ and (max-device-width : 1024px) {
     background: url("../img/hexabump.png") repeat #000;
 
   }
-  .one img {
-	width:25%;
-	margin-left: 1%;
+  
+
 }
 /* Styles */
 }
