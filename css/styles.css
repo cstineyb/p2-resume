@@ -415,9 +415,12 @@ footer p {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
-
+.container {
+	width: 100%;
+}
 nav#main {
   height: 30px;
+  width:100%;
 }
 #main li {
   color:#000;
@@ -428,7 +431,23 @@ nav#main {
   display: inline;
   margin: 0% 3%;
 }
+#art {
 
+	top:-85vmin;
+	left:-45vmin;
+
+}
+section.skills{
+	width: 15%;
+	top:50%;
+}
+section.education {
+	width:20%;
+}
+section.other, section.experience  {
+	width: 10%;
+	top:60%;
+}
  
 }
 /* iPads (portrait and landscape) ----------- */
@@ -436,7 +455,43 @@ nav#main {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
-  
+  container {
+	width: 100%;
+}
+nav#main {
+  height: 30px;
+  width:100%;
+}
+#main li {
+  color:#000;
+  font-family: 'Ubuntu' sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.5em;
+  display: inline;
+  margin: 0% 3%;
+}
+#art {
+
+	top:-85vmin;
+	left:-45vmin;
+
+}
+section.skills {
+	width: 100%;
+	top: -80vmin;
+}
+section.education {
+	width:60%;
+	top:-20vmin;
+}
+section.other, section.experience  {
+	width: 100%;
+	top:-80vmin;
+}
+.adobe {
+	bottom:-90vmin;
+}
   
   
 
