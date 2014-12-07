@@ -4,6 +4,15 @@ body {
 	background: url("../img/hexabump.png") repeat #000;
 	
 }
+
+article {
+	 margin-left: auto;
+    margin-right: auto;
+   position: absolute;
+  left: 10%;
+}
+}
+
 header {
   background: url("../img/hexabump.png") repeat #000;
   max-width: 100%;
@@ -33,14 +42,18 @@ a:hover {
 
 nav#main {
   background: url("../img/light_alu.png") repeat #000;
-  display:inline;
-  max-width: 100%;
+  display:inline-block;
+  width: 85%;
   max-height: 70px;
+  text-align: center;
+  margin-bottom: 1%
+
 }
 
 #main ul {
   
   margin-top: 0;
+
   } 
 
 #main li {
@@ -83,14 +96,23 @@ a:visited{
 
 
 section.skills, section.education, section.experience, section.other, footer {
-	width: 100vw;
-	font-family: 'Roboto', sans-serif;;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	position:relative;
+	float:left;
+	top:-17vmin;
 }
 
 
 
 
 /*EDUCATION Z-index 1-9 */
+
+section.education {
+	left:-2vmin;
+	top:-10vmin;
+	float:left;
+}
 .education p {
 	text-align: center;
 	background: blue;
@@ -119,8 +141,7 @@ section.skills, section.education, section.experience, section.other, footer {
 }
 #sca	{
 	background: darkgreen;
-	top: 40vmin;
-	left: 2vmin;
+	top: 10vmin;
 	position: relative;
 	z-index: 3;
 }
@@ -129,8 +150,8 @@ section.skills, section.education, section.experience, section.other, footer {
 	color: darkblue;
 	background: gold;
 	opacity:.7;
-	top: 25vmin;
-	left: 8vmin;
+	top: 35vmin;
+	left: -20vmin;
 	clear:none;
 	position: relative;
 	z-index: 2;
@@ -138,6 +159,7 @@ section.skills, section.education, section.experience, section.other, footer {
 /*EXPERIENCE Z-index 10-19*/
 
 section.experience {
+	bottom:20vmin;
 	position:relative;
 	z-index: 10;
 }
@@ -161,7 +183,7 @@ section.experience {
 #design {
 	background: #808;
 	opacity:.7;
-	top: 10vh;
+	top: -15vmin;
 	position: relative;
 	z-index: 11;
 }
@@ -187,7 +209,7 @@ section.experience {
     background: #808;
 	opacity:.7;
 	top: -25vmin;
-	left: -55vmin;
+	left: -45vmin;
 	position: relative;
 	z-index: 15;	
 }
@@ -195,8 +217,8 @@ section.experience {
 #life {	
 	background: #808;
 	opacity:.7;
-	top: 5vmin;
-	left: 10vmin;
+	top: 15vmin;
+	left: -30vmin;
 	position: relative;
 	z-index: 13;
 }
@@ -270,8 +292,7 @@ section.experience {
 	line-height: 10vmin;
 	padding: 1vmax;
 	position: relative;
-	float:right;
-	left:-75vmin;
+	top:-5vmin;
 	z-index: 30;
 
 	}
@@ -282,7 +303,7 @@ section.experience {
 	opacity:.7;
 	display: block;
 	font-family: 'Roboto' sans-serif;
-	font-size: 1.5vmax;
+	font-size: 1.2vmax;
 	border-radius: 50%;
 	width: 20vmin;
 	height: 20vmin; 
@@ -295,8 +316,7 @@ section.experience {
 	}
 
 #typographical {
-	top:-175vmin;
-	left: -125vmin;
+	bottom: 100vmin;
 	position: relative;
 	z-index: 21;
 
@@ -351,9 +371,9 @@ section.experience {
 
 #logical {
 	background: #0060FF;
-	top:-240vmin;
-	left: -5vmin;
 	position: relative;
+	left:-50vmin;
+	top:-80vmin;
 	z-index: 28;
 }
 
@@ -381,7 +401,6 @@ footer p {
 	border-radius: 50%;
 	height: 20vmin;
 	width: 20vmin;
-	line-height: 20vmin;
 	font-size: 1.5vmin;
 	display:block;
 	top: -70vmin;
@@ -396,24 +415,7 @@ footer p {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
-.one p{
-  font-size:.3em;
-  color:#fff;
-  font-family: "Roboto";
-  text-align: left;
-  padding-bottom
-}
-.one, .coasters {
-	width:90%;
-}
-.one img {
-	width:25%;
-	margin-left: 1%;
-}
 
-h2, h3 {
-	font-size: 1.1em;
-}
 nav#main {
   height: 30px;
 }
@@ -427,13 +429,7 @@ nav#main {
   margin: 0% 3%;
 }
 
-  body {
-    background: url("../img/hexabump.png") repeat #000;
-
-  }
-  .selfie-right {
-  	visibility: hidden;
-  }
+ 
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
@@ -441,10 +437,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
   
-  body {
-    background: url("../img/hexabump.png") repeat #000;
-
-  }
+  
   
 
 }
