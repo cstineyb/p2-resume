@@ -94,23 +94,20 @@ a:visited{
 
 
 
-
-section.skills, section.education, section.experience, section.other, footer {
+ section.education, section.experience, section.other, footer {
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
 	position:relative;
 	float:left;
-	top:-17vmin;
+	top:-22vmin;
 }
 section.skills {
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
 	position:relative;
 	float:left;
-	top:-12vmin;
+	top:-2vmin;
 }
-
-
 
 
 /*EDUCATION Z-index 1-9 */
