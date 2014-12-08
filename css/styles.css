@@ -78,13 +78,6 @@ a:visited{
 }
 
 
-
-
- 
-
-
-
-
 /*EDUCATION Z-index 1-9 */
 
 
@@ -100,56 +93,10 @@ a:visited{
 	height: 40vmin; 
 	line-height: 50vmin;
 	padding: 3vmax;
-	position: relative;
-	float:right;
+	position: absolute;
+	float:left;
 	z-index: 1;
 	}
-
-
-/*EXPERIENCE Z-index 10-19*/
-
-
-.experience p {
-	text-align: center;
-	background: green;
-	color:#fff;
-	opacity:.8;
-	display: block;
-	font-family: 'Ubuntu 700' sans-serif;
-	font-size: 2vmax;
-	border-radius: 50%;
-	width: 35vmin;
-	height: 35vmin; 
-	line-height: 35vmin;
-	position: relative;
-	float:right;
-	z-index: 19;
-	}
-
-
-
-
-/*OTHER Z-index 41-50 */
-.other p {
-	text-align: center;
-	background: orange;
-	color: #fff;
-	opacity:.8;
-	display: block;
-	font-family: 'Roboto' sans-serif;
-	font-size: 2vmax;
-	border-radius: 50%;
-	width: 20vmin;
-	height: 20vmin; 
-	line-height: 20vmin;
-	padding: 1vmax;
-	left: 10vmin;
-	position: relative;
-	float:right;
-	z-index: 40;
-}
-
-
 
 /*SKILLS Z-index 20-40*/
 .skills .adobe p {
@@ -171,6 +118,25 @@ a:visited{
 	z-index: 30;
 
 	}
+	/*EXPERIENCE Z-index 10-19*/
+
+
+.experience p {
+	text-align: center;
+	background: green;
+	color:#fff;
+	opacity:.8;
+	display: block;
+	font-family: 'Ubuntu 700' sans-serif;
+	font-size: 2vmax;
+	border-radius: 50%;
+	width: 35vmin;
+	height: 35vmin; 
+	line-height: 35vmin;
+	position: absolute;
+	float:right;
+	z-index: 19;
+	}
 .skills p {
 	text-align: center;
 	background: blue;
@@ -184,13 +150,31 @@ a:visited{
 	height: 20vmin; 
 	line-height: 20vmin;
 	padding: 1vmax;
-	position: relative;
+	position: absolute;
 	float:left;
 	z-index: 20;
 
 	}
 
-
+/*OTHER Z-index 41-50 */
+.other p {
+	text-align: center;
+	background: orange;
+	color: #fff;
+	opacity:.8;
+	display: block;
+	font-family: 'Roboto' sans-serif;
+	font-size: 2vmax;
+	border-radius: 50%;
+	width: 20vmin;
+	height: 20vmin; 
+	line-height: 20vmin;
+	padding: 1vmax;
+	left: 10vmin;
+	position: absolute;
+	float:right;
+	z-index: 40;
+}
 
 /*FOOTER Z-index -1 */
 
