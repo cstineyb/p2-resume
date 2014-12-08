@@ -256,7 +256,7 @@ section {
 
 #mechanical {
 	background: #000066;
-	top:65vmin;
+	top:75vmin;
 	left: 25vmin;
 	position: absolute;
 	z-index: 22;
@@ -296,7 +296,7 @@ section {
 
 
 #handy {
-	top:65vmin;
+	top:75vmin;
 	left: -5vmin;
 	position: absolute;
 	z-index: 27;
