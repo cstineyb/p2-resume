@@ -6,10 +6,9 @@ body {
 }
 
 article {
-	 margin-left: auto;
+	    margin-left: auto;
     	margin-right: auto;
    		position: absolute;
-  		left: 10%;
 }
 
 
@@ -18,6 +17,10 @@ header {
   max-width: 100%;
   max-height:200px;
   text-align:center;
+  position:fixed;
+  margin-left: auto;
+    	margin-right: auto;
+
 }
 
 img {
@@ -43,7 +46,7 @@ a:hover {
 nav#main {
   background: url("../img/light_alu.png") repeat #000;
   display:inline-block;
-  width: 85%;
+  width: 100%;
   max-height: 70px;
   text-align: center;
   margin-bottom: 1%
@@ -63,7 +66,7 @@ nav#main {
   font-size: 1.5em;
   line-height: 2em;
   display: inline;
-  margin: 0% 3%;
+  margin: 0 3%;
 }
 
 
@@ -77,6 +80,10 @@ a:visited{
 	color: #e6e6e6;
 }
 
+section {
+	position:absolute;
+	left:15%;
+}
 
 /*EDUCATION Z-index 1-9 */
 
@@ -89,11 +96,12 @@ a:visited{
 	font-family: 'Roboto' sans-serif;
 	font-size: 1.75vmax;
 	border-radius: 50%;
-	width: 60vmin;
-	height: 60vmin; 
-	line-height: 60vmin;
+	width: 65vmin;
+	height: 65vmin; 
+	letter-spacing: -1px;
+	line-height: 65vmin;
 	padding: 3vmax;
-	position: absolute;
+	position: relative;
 	float:left;
 	z-index: 1;
 	}
@@ -121,10 +129,10 @@ a:visited{
 	color: darkblue;
 	background: gold;
 	opacity:.6;
-	width: 50vmin;
-	height: 50vmin; 
+	width: 65vmin;
+	height: 65vmin; 
 	letter-spacing: -1.5px;
-	line-height: 50vmin;
+	line-height: 65vmin;
 	top: 120vmin;
 	left: 10vmin;
 	clear:none;
@@ -149,7 +157,7 @@ a:visited{
 	line-height: 7vmin;
 	padding: 1vmax;
 	position: relative;
-	top:-5vmin;
+	top: 15vmin;
 	z-index: 30;
 
 	}
@@ -173,7 +181,7 @@ a:visited{
 #design {
 	background: #808;
 	opacity:.7;
-	top: 65vmin;
+	top: 37vmin;
 	left: 30vmin;
 	position: absolute;
 	z-index: 11;
@@ -183,8 +191,8 @@ a:visited{
 	background: #808;
 	color:#fff;
 	opacity:.7;
-	top: 85vmin;
-	left: 85vmin;
+	top: 75vmin;
+	left: 95vmin;
 	position: absolute;
 	z-index: 14;
 	
@@ -241,7 +249,7 @@ a:visited{
 	top: 40vmin;
 	left: 15vmin;
 	letter-spacing: -.5px;
-	position: relative;
+	position: absolute;
 	z-index: 21;
 
 }
@@ -250,23 +258,23 @@ a:visited{
 	background: #000066;
 	top:65vmin;
 	left: 25vmin;
-	position: relative;
+	position: absolute;
 	z-index: 22;
 }
 
 #enduring {
 	background: #000099;
-	top:-205vmin;
-	left: 60vmin;
-	position: relative;
+	top:115vmin;
+	left: 40vmin;
+	position: absolute;
 	z-index: 23;
 }
 
 #focused {
 	background: #333399;
-	top:-165vmin;
-	left: 5vmin;
-	position: relative;
+	top:66vmin;
+	left: 55vmin;
+	position: absolute;
 	z-index: 24;
 }
 
@@ -274,14 +282,15 @@ a:visited{
 #humorous {
 	background: #6666FF;
 	top:100vmin;
-	position: relative;
+	left:15vmin;
+	position: absolute;
 	z-index: 25;
 }
 
 #sticktuitive {
-	top:18vmin;
-	left: 13vmin;
-	position: relative;
+	top:98vmin;
+	left: 58vmin;
+	position: absolute;
 	z-index: 26;
 }
 
@@ -289,24 +298,24 @@ a:visited{
 #handy {
 	top:65vmin;
 	left: -5vmin;
-	position: relative;
+	position: absolute;
 	z-index: 27;
 }
 
 #logical {
 	background: #0060FF;
-	position: relative;
-	left:60vmin;
-	top:35vmin;
+	position: absolute;
+	left:95vmin;
+	top:65vmin;
 	z-index: 28;
 }
 
 #linear {
 	background: #0099FF;
-	top:5vmin;
-	left: 5vmin;
-	position: relative;
-	z-index: 29;
+	top:140vmin;
+	left: 75vmin;
+	position: absolute;
+	z-index: 99;
 
 }
 
@@ -338,7 +347,7 @@ a:visited{
 
 
 #bicycles {
-	top:60vmin;
+	top:130vmin;
 	left: 90vmin;
 	position: absolute;
 	z-index: 42;
@@ -358,8 +367,8 @@ a:visited{
 
 #art {
 
-	top:40vmin;
-	left:60vmin;
+	top:43vmin;
+	left:90vmin;
 	position: absolute;
 	z-index: 44;
 
@@ -378,8 +387,11 @@ footer p {
 	line-height: 20vmin;
 	font-size: 1.5vmin;
 	display:block;
-	opacity:.7;
+	opacity:.2;
 	position: absolute;
+	top:170vmin;
+	left:110vmin;
+
 	float:left;
 	z-index: 100;
 }
@@ -406,8 +418,8 @@ nav#main {
 }
 .container {
 	width:100%;
-
 }
+
  
 }
 /* iPads (portrait and landscape) ----------- */
