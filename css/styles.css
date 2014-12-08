@@ -7,11 +7,11 @@ body {
 
 article {
 	 margin-left: auto;
-    margin-right: auto;
-   position: absolute;
-  left: 10%;
+    	margin-right: auto;
+   		position: absolute;
+  		left: 10%;
 }
-}
+
 
 header {
   background: url("../img/hexabump.png") repeat #000;
@@ -80,93 +80,35 @@ a:visited{
 
 
 
- p {
-		color: #000;
-		font-family: 'Roboto', sans-serif;
-		font-size: 1.33em;
-		line-height: 1.5em;
-		text-align: center;
-	
-		
-	}
+ 
 
 
-
-
-
- section.education, section.experience, section.other, footer {
-	width: 100%;
-	font-family: 'Roboto', sans-serif;
-	position:relative;
-	float:left;
-	top:-22vmin;
-}
-section.skills {
-	width: 100%;
-	font-family: 'Roboto', sans-serif;
-	position:relative;
-	float:left;
-	top:-2vmin;
-}
 
 
 /*EDUCATION Z-index 1-9 */
 
-section.education {
-	left:-2vmin;
-	top:-10vmin;
-	float:left;
-}
+
 .education p {
 	text-align: center;
-	background: blue;
+	background: gold;
 	color: #fff;
-	opacity:.8;
 	display: block;
 	font-family: 'Roboto' sans-serif;
 	font-size: 1.75vmax;
 	border-radius: 50%;
-	width: 55vmin;
-	height: 55vmin; 
+	width: 40vmin;
+	height: 40vmin; 
 	line-height: 50vmin;
 	padding: 3vmax;
 	position: relative;
-	float:left;
+	float:right;
 	z-index: 1;
 	}
 
-#ewu	{
-	background: red;
-	opacity:.7;
-	top: 5vmin;
-	left: 6vmin;
-	position: relative;
-	z-index: 4;
-}
-#sca	{
-	background: darkgreen;
-	top: 10vmin;
-	position: relative;
-	z-index: 3;
-}
 
-#ucsc	{
-	color: darkblue;
-	background: gold;
-	opacity:.7;
-	top: 35vmin;
-	left: -20vmin;
-	clear:none;
-	position: relative;
-	z-index: 2;
-}
 /*EXPERIENCE Z-index 10-19*/
 
-section.experience {
-	bottom:20vmin;
-	position:relative;
-	z-index: 10;
-}
+
 .experience p {
 	text-align: center;
 	background: green;
@@ -176,56 +118,14 @@ section.experience {
 	font-family: 'Ubuntu 700' sans-serif;
 	font-size: 2vmax;
 	border-radius: 50%;
-	width: 40vmin;
-	height: 40vmin; 
-	line-height: 40vmin;
+	width: 35vmin;
+	height: 35vmin; 
+	line-height: 35vmin;
 	position: relative;
-	float:left;
+	float:right;
 	z-index: 19;
 	}
 
-#design {
-	background: #808;
-	opacity:.7;
-	top: -15vmin;
-	position: relative;
-	z-index: 11;
-}
-
-#restaurants {	
-	background: #808;
-	color:#fff;
-	opacity:.7;
-	position: relative;
-	z-index: 14;
-	
-}
-
-#retail {
-	background: #808;
-	opacity:.7;
-	position: relative;
-	z-index: 12;	
-
-}
-
-#management {
-    background: #808;
-	opacity:.7;
-	top: -25vmin;
-	left: -45vmin;
-	position: relative;
-	z-index: 15;	
-}
-			
-#life {	
-	background: #808;
-	opacity:.7;
-	top: 15vmin;
-	left: -30vmin;
-	position: relative;
-	z-index: 13;
-}
 
 
 
@@ -245,41 +145,11 @@ section.experience {
 	padding: 1vmax;
 	left: 10vmin;
 	position: relative;
-	float:left;
+	float:right;
 	z-index: 40;
 }
 
-#poetry {
-	top:-15vmin;
-	left:-5vmin;
 
-}
-
-
-#bicycles {
-	top:-40vmin;
-	position: relative;
-	z-index: 42;
-
-
-}
-
-
-#building {
-	top:-55vmin;
-	left: -1vmin;
-	position: relative;
-	z-index: 41;
-
-}
-
-
-#art {
-
-	top:-85vmin;
-	left:-95vmin;
-
-}
 
 /*SKILLS Z-index 20-40*/
 .skills .adobe p {
@@ -291,9 +161,10 @@ section.experience {
 	font-family: 'Roboto' sans-serif;
 	font-size: 2vmax;
 	border-radius: 50%;
-	width: 10vmin;
-	height: 10vmin; 
-	line-height: 10vmin;
+	border: solid brown;
+	width: 7vmin;
+	height: 7vmin; 
+	line-height: 7vmin;
 	padding: 1vmax;
 	position: relative;
 	top:-5vmin;
@@ -319,98 +190,25 @@ section.experience {
 
 	}
 
-#typographical {
-	bottom: 100vmin;
-	position: relative;
-	z-index: 21;
-
-}
-
-#mechanical {
-	background: #000066;
-	top:-75vmin;
-	left: -25vmin;
-	position: relative;
-	z-index: 22;
-}
-
-#enduring {
-	background: #000099;
-	top:-205vmin;
-	left: 60vmin;
-	position: relative;
-	z-index: 23;
-}
-
-#focused {
-	background: #333399;
-	top:-165vmin;
-	left: 5vmin;
-	position: relative;
-	z-index: 24;
-}
-
-
-#humorous {
-	background: #6666FF;
-	top:-180vmin;
-	position: relative;
-	z-index: 25;
-}
-
-#sticktuitive {
-	top:-180vmin;
-	left: -5vmin;
-	position: relative;
-	z-index: 26;
-}
-
-
-#handy {
-	top:-90vmin;
-	left: -5vmin;
-	position: relative;
-	z-index: 27;
-}
-
-#logical {
-	background: #0060FF;
-	position: relative;
-	left:-50vmin;
-	top:-80vmin;
-	z-index: 28;
-}
-
-#linear {
-	background: #0099FF;
-	top:-65vmin;
-	left: -120vmin;
-	position: relative;
-	z-index: 29;
-
-}
-
 
 
 /*FOOTER Z-index -1 */
-footer {
-	float:left;
-	height: 20vmin;
-	width: 20vmin;
 
-}
+
 footer p {
+	text-align: center;
 	color:#fff;
-	background: #2F045D;
+	background: pink;
 	border-radius: 50%;
 	height: 20vmin;
 	width: 20vmin;
+	line-height: 20vmin;
 	font-size: 1.5vmin;
 	display:block;
-	top: -70vmin;
-	margin-bottom: -50vmin;
+	opacity:.7;
 	position: relative;
-	z-index: -1;
+	float:left;
+	z-index: 1;
 }
 
 
@@ -419,39 +217,7 @@ footer p {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
-.container {
-	width: 100%;
-}
-nav#main {
-  height: 30px;
-  width:100%;
-}
-#main li {
-  color:#000;
-  font-family: 'Ubuntu' sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  line-height: 1.5em;
-  display: inline;
-  margin: 0% 3%;
-}
-#art {
 
-	top:-85vmin;
-	left:-45vmin;
-
-}
-section.skills{
-	width: 15%;
-	top:50%;
-}
-section.education {
-	width:20%;
-}
-section.other, section.experience  {
-	width: 10%;
-	top:60%;
-}
  
 }
 /* iPads (portrait and landscape) ----------- */
@@ -459,43 +225,6 @@ section.other, section.experience  {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
-  container {
-	width: 100%;
-}
-nav#main {
-  height: 30px;
-  width:100%;
-}
-#main li {
-  color:#000;
-  font-family: 'Ubuntu' sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  line-height: 1.5em;
-  display: inline;
-  margin: 0% 3%;
-}
-#art {
-
-	top:-85vmin;
-	left:-45vmin;
-
-}
-section.skills {
-	width: 100%;
-	top: -80vmin;
-}
-section.education {
-	width:60%;
-	top:-20vmin;
-}
-section.other, section.experience  {
-	width: 100%;
-	top:-80vmin;
-}
-.adobe {
-	bottom:-90vmin;
-}
   
   
 
