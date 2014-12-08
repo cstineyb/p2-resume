@@ -396,6 +396,37 @@ footer p {
 	z-index: 100;
 }
 
+.contact {
+	background: #000;
+	border-radius:50%;
+	width: 20vmin;
+	height: 20vmin; 
+	line-height: 20vmin;
+  	padding: 1%;
+  	display: block;
+  	position:absolute;
+  	top:195vmin;
+	 left:15vmin;
+	  z-index: 101;
+}
+
+.contact a {
+  background: #fff;
+  border-radius: 50%;
+  width: 20vmin;
+  height: 20vmin; 
+  color:#000;
+  opacity:.8;
+  font-size: 8vmin;
+  transition: 1.5s ease-in-out;
+ 
+}
+
+.contact a:hover {
+  color:grey;
+
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
